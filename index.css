@@ -1,0 +1,231 @@
+body{
+    background-color: rgb(rgba(110, 207, 147, 0.959), green, blue);
+    margin-left: 20px;
+}
+.title{
+    display: block;
+    background-position: center;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 900;
+    font-family: Impact, fantasy;
+}
+
+h3
+ {
+   text-decoration: underline;
+    margin-left: 5px;
+    display: block;
+    background-position: center;
+    color: brown;
+    font-style: oblique;
+}
+.titrearticle
+{
+   margin-top: 80px;
+}
+section
+{
+    -webkit-column-count:3; /* Opera, Safari, Google Chrome */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3; /* Internet Explorer */
+    float: left;
+    margin: 5px;
+} 
+#fresk1
+{
+   background-color: black;
+   margin-top: 50px;
+   width: 100px;
+   height: 80px;
+   background-repeat: repeat-x;
+} 
+.fresk{
+   height: 80px;
+   
+   margin-top: 50px;
+   background-color: black;
+}
+.bio
+{ 
+  margin-left: 5px;
+ 
+}
+.Biographie
+{
+   font-family: Snell Roundhand, cursive;
+}
+.carrierepro
+{
+   margin-top: 100px;
+}
+#pict
+ {
+    width: 300px;
+	height: 310px;
+  margin-left: 20px;
+}
+ #toff{ 
+    margin-top: 400px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto  
+ }
+ .centrage
+ {
+ text-align: center;
+ }
+ /*section.carriere
+ {
+    -webkit-column-count:2 500px; 
+    -moz-column-count: 2 500px; 
+    column-count: 2 500px; 
+    float: none;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+    margin: 10px;
+ }*/
+ #card
+ {
+    display: inline-block;
+    margin: 10px; 
+    
+ }
+
+ #diop
+ {display: block;
+    float: right;
+    margin: 40px;   
+ }
+ #bio
+ {
+    margin-top: 30px;
+ }
+ section h5
+{
+    break-before: column;
+    -webkit-column-break-before: always;
+    color:rebeccapurple;
+}
+
+.col-md-10
+{
+   text-align: center;
+   font-size: 18px;
+   font-family: Jazz LET, fantasy 	;
+}
+ /*section.taff
+ {
+    display: block;
+    float: right;
+    margin: 15px;
+ }
+ section.colonne
+ {
+    display: inline-block;
+ }
+*/
+ article{
+    -webkit-column-count:2; /* Opera, Safari, Google Chrome */
+   -moz-column-count: 2; /* Firefox */
+   column-count: 2; /* Internet Explorer */
+    
+   float: right;
+    margin: 10px;
+ }
+ .suite
+ {
+   -webkit-column-count:1; /* Opera, Safari, Google Chrome */
+   -moz-column-count: 1; /* Firefox */
+   column-count: 1; /* Internet Explorer */  
+   margin: 15px;
+   
+ }
+ .theme
+ {
+margin-top:100px;
+ }
+.h4
+{
+   color: rebeccapurple;
+}
+.thematique
+{
+margin-top:40px;
+}
+.rsp
+{
+   margin-top:40px;
+   color: rgb(63, 70, 29);
+   font-family: fantasy;
+}
+ .cadre
+ {
+   border-style:double;
+   border-color:black;
+   border-width:2px;
+   padding:8px;
+ }
+.video-conteneur {
+width:"400" height="300";
+  
+position:relative;
+padding-bottom:56.25%;
+height:0;
+overflow:hidden;
+
+}
+.video-conteneur iframe,
+.video-conteneur object,
+.video-conteneur embed {
+position:absolute;
+top:0;
+left:0;
+width:100%!important;
+height:100%!important;
+}
+p {
+
+   border-width:2px;
+}
+
+@media (min-width:480px) and (max-width:780px)
+{
+   #card
+   {
+      display: none;
+      margin: 10px; 
+      float: none;
+   }
+  
+   #diop
+   {display: none;
+      float: none;
+      margin: 40px;   
+   }
+}
+@media (min-width:781px) and (max-width:980px)
+{
+   #card
+   {
+      display: none;
+      
+      float: none;
+   }
+  
+   #diop
+   {display: none;
+      float: none;
+       
+
+   }
+   .diop {
+      font-size: 18px;
+   }
+
+}
